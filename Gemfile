@@ -8,6 +8,8 @@ end
 gem 'rails', '~> 5.1.0.rc2'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
+gem 'devise', git: 'https://github.com/gogovan/devise.git', branch: 'rails-5.1'
+gem 'erubis'
 
 
 group :development, :test do
